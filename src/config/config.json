@@ -1,21 +1,21 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "Tischlerei Schwoch",
+    "base_url": "https://www.tischlerei-schwoch.de",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
-    "logo_height": "30",
+    "logo_height": "auto",
     "logo_text": "Astroplate"
   },
 
   "settings": {
-    "search": true,
+    "search": false,
     "sticky_header": true,
-    "theme_switcher": true,
+    "theme_switcher": false,
     "default_theme": "system",
     "pagination": 2,
     "summary_length": 200,
@@ -31,7 +31,7 @@
   },
 
   "navigation_button": {
-    "enable": true,
+    "enable": false,
     "label": "Get Started",
     "link": "https://github.com/zeon-studio/astroplate"
   },
