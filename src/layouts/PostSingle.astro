@@ -23,7 +23,7 @@ if (!lang) {
 
 const posts = await getSinglePage(
   COLLECTION_FOLDER,
-  lang as keyof ContentEntryMap
+  lang as keyof ContentEntryMap,
 );
 const similarPosts = similarItems(post, posts);
 const { Content } = await post.render();

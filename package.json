@@ -1,18 +1,18 @@
 {
-  "name": "astroplate",
+  "name": "tischlerei-schwoch",
   "version": "4.0.0",
-  "description": "Astro and Tailwindcss boilerplate",
-  "author": "zeon.studio",
+  "description": "Static website for a carpentry business",
+  "author": "fre-ben",
   "license": "MIT",
-  "packageManager": "yarn@1.22.19",
+  "packageManager": "pnpm@9.5.0",
   "scripts": {
-    "dev": "yarn generate-json && astro dev",
-    "build": "yarn generate-json && astro build",
+    "dev": "pnpm generate-json && astro dev",
+    "build": "pnpm generate-json && astro build",
     "preview": "astro preview",
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
-    "remove-darkmode": "node scripts/removeDarkmode.js && yarn format",
-    "remove-multilang": "node scripts/removeMultilang.js && yarn format"
+    "remove-darkmode": "node scripts/removeDarkmode.js && pnpm format",
+    "remove-multilang": "node scripts/removeMultilang.js && pnpm format"
   },
   "dependencies": {
     "@astrojs/mdx": "^3.1.3",
